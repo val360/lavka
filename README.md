@@ -1,6 +1,6 @@
-# 945 Industries Clone
+# Clone
 
-A full-stack e-commerce clone of [945industries.com](https://945industries.com) — a premium concealed carry bags, holsters & accessories store.
+A full-stack e-commerce clone of — a premium concealed carry bags, holsters & accessories store.
 
 ## Tech Stack
 
