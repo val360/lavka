@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0a0a0a;
+  color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-white text-black font-semibold px-8 py-3 uppercase tracking-wider text-sm hover:bg-gray-200 transition-colors duration-200;
+  }
+
+  .btn-outline {
+    @apply border border-white text-white font-semibold px-8 py-3 uppercase tracking-wider text-sm hover:bg-white hover:text-black transition-colors duration-200;
+  }
+
+  .section-heading {
+    @apply font-heading text-3xl md:text-4xl font-bold uppercase tracking-wider text-center;
+  }
+}
